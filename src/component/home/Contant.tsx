@@ -1,8 +1,9 @@
-import { Divider } from "antd";
-import React from "react";
+
 import Notice from "./Notice";
 import Member from "./Member";
-
+import './style.css'
+import ImportAnnouncement from "./ImportAnnouncement";
+import EServices from "./EServices";
 const Contant = () => {
   return (
     <div className=" flex  items-center gap-5 pb-20">
@@ -10,6 +11,8 @@ const Contant = () => {
       <div className="w-[30%]  h-full py-10">
         <Notice></Notice>
         <Member></Member>
+        <ImportAnnouncement></ImportAnnouncement>
+        <EServices></EServices>
       </div>
     </div>
   );

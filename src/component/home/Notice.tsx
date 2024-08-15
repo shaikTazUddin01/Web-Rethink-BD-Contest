@@ -1,5 +1,5 @@
 import { MdCalendarMonth } from "react-icons/md";
-import { SlCalender } from "react-icons/sl";
+
 
 const Notice = () => {
   return (
