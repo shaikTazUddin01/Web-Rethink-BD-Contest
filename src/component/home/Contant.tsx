@@ -5,7 +5,7 @@ import Member from "./Member";
 
 const Contant = () => {
   return (
-    <div className="h-screen flex  items-center gap-5">
+    <div className=" flex  items-center gap-5 pb-20">
       <div className="w-[70%]  h-full"></div>
       <div className="w-[30%]  h-full py-10">
         <Notice></Notice>
