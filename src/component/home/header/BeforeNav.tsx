@@ -1,11 +1,12 @@
 import { Select } from "antd";
+import Search from "antd/es/input/Search";
 import {
   FaFacebook,
-  
   FaInstagram,
+  FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+// import { FaSquareXTwitter } from "react-icons/fa6";
 
 const BeforeNav = () => {
   return (
@@ -14,7 +15,8 @@ const BeforeNav = () => {
         <h1 className="text-white">Bangladesh National Portal</h1>
         <Select
           defaultValue="lucy"
-          style={{ width: 150, height: 24 }}
+          style={{ width: 150,}}
+          size="small"
           options={[
             { value: "jack", label: "Jack" },
             { value: "lucy", label: "Lucy" },
@@ -23,11 +25,14 @@ const BeforeNav = () => {
         />
       </div>
       <div>
-        <div className="text-xl text-white gap-3 flex">
+        <div className=" text-white gap-3 flex justify-between items-center">
+        <Search placeholder="search here.."   size="small" />
+          <div className="flex gap-3 text-xl">
           <FaFacebook />
           <FaInstagram />
           <FaYoutube></FaYoutube>
-          <FaSquareXTwitter />
+          <FaTwitter />
+          </div>
         </div>
       </div>
     </div>

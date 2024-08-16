@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FiCheckSquare } from 'react-icons/fi';
 
 const EServices = () => {
