@@ -1,5 +1,5 @@
-import member1 from "../../assets/Honorable Adviser (1).jpg";
-import member2 from "../../assets/Honorable Secretary Sir.jpg";
+import member1 from "../../../assets/Honorable Adviser (1).jpg";
+import member2 from "../../../assets/Honorable Secretary Sir.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

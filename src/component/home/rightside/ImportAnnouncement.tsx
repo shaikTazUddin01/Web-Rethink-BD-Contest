@@ -1,5 +1,5 @@
-import { MdCalendarMonth } from "react-icons/md";
-import img1 from '../../assets/ICT Division Result.png'
+// import { MdCalendarMonth } from "react-icons/md";
+import img1 from '../../../assets/ICT Division Result.png'
 
 const ImportAnnouncement = () => {
   return (

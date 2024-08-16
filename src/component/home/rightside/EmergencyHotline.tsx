@@ -1,4 +1,4 @@
-import hotLine from '../../assets/hotline_v.2_bn.png'
+import hotLine from '../../../assets/hotline_v.2_bn.png'
 
 const EmergencyHotline = () => {
     return (

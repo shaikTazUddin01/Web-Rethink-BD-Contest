@@ -1,7 +1,7 @@
-import BeforeNav from "../component/home/BeforeNav";
+import BeforeNav from "../component/home/header/BeforeNav";
 import Contant from "../component/home/Contant";
-import HeroArea from "../component/home/HeroArea";
-import NavBar from "../component/home/NavBar";
+import HeroArea from "../component/home/header/HeroArea";
+import NavBar from "../component/home/header/NavBar";
 
 
 const Home = () => {

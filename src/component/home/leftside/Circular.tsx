@@ -1,5 +1,5 @@
 import { Collapse, CollapseProps } from "antd";
-import circular from "../../assets/circular.jpg";
+import circular from "../../../assets/circular.jpg";
 
 const Circular = () => {
 
@@ -41,13 +41,13 @@ const items: CollapseProps['items'] = [
         <h1 className='text-2xl font-semibold text-center'>Notice/Order/Circular</h1>
 
         </div>
-      <div className=" grid grid-cols-5 gap-5 items-center">
+      <div className=" grid grid-cols-1 lg:grid-cols-5 gap-5 items-center">
         {/* 1 */}
 
-        <img src={circular} alt="" className="mx-auto col-span-2 w-full" />
+        <img src={circular} alt="" className="mx-auto md:col-span-2 w-full" />
 
-        <div className=" col-span-3 space-y-5">
-         <Collapse items={items}   />;
+        <div className=" lg:col-span-3 space-y-5">
+         <Collapse items={items}   />
          
         </div>
       </div>

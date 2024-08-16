@@ -2,3 +2,15 @@
 .swiper-button-prev, .swiper-button-next {
     color: #2C8201;
 }
+
+.sizeFixing > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100%;
+  }
+  
+  .sizeFixing > div > div {
+    flex-grow: 1;
+  }
+  

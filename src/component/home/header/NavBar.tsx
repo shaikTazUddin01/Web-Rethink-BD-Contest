@@ -1,4 +1,4 @@
-import logo from '../../assets/logo-2.png'
+import logo from '../../../assets/logo-2.png'
 
 const NavBar = () => {
   const navItem = (
