@@ -10,7 +10,7 @@ import {
 
 const BeforeNav = () => {
   return (
-    <div className="w-full py-1 bg-primaryColor flex flex-col md:flex-row items-center justify-between px-2">
+    <div className="w-full py-1 bg-primaryColor flex flex-col md:flex-row items-center justify-between px-2 gap-2">
       <div className="flex gap-5 items-center">
         <h1 className="text-white">Bangladesh National Portal</h1>
         <Select
