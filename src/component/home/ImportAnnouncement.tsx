@@ -19,11 +19,13 @@ const ImportAnnouncement = () => {
         <p className="text-[16px] mt-2 font-medium">
         Information and Communication Technology technology ranks first in the Annual Executive (APA) Assessment 2020-2021.
         </p>
+      <img src={img1} alt="" className="" />
+
       </a>
     </div>
-    <div className="mt-10 rounded-xl overflow-hidden shadow-2xl">
+    {/* <div className="mt-10 rounded-xl overflow-hidden shadow-2xl">
       <img src={img1} alt="" className="" />
-    </div>
+    </div> */}
     </div>
   );
 };

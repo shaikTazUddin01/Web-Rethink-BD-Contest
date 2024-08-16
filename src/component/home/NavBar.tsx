@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo-2.png'
 
 const NavBar = () => {
   const navItem = (
@@ -53,8 +53,8 @@ const NavBar = () => {
               {navItem}
             </ul>
           </div>
-          <a className="flex justify-center items-center gap-3">
-            <img src={logo} alt="" /><span className='text-2xl font-semibold'>ICT DIVITION</span>
+          <a className="flex  items-center gap-3">
+            <img src={logo} alt="" className='w-[60%]' />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex" >

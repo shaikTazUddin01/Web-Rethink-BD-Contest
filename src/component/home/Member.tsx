@@ -11,7 +11,7 @@ const Member = () => {
   return (
     <div className=" border-t-4 border-primaryColor  bg-white p-5 rounded-lg shadow-2xl mt-10 overflow-hidden ">
       <div>
-        <h1 className="text-3xl font-semibold mb-2">Members</h1>
+        <h1 className="text-3xl font-semibold mb-2">Authority</h1>
         <div className="w-full h-[1px] bg-[#b0adad]"></div>
       </div>
 
