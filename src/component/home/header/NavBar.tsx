@@ -1,37 +1,66 @@
 import { MdClose } from "react-icons/md";
 import logo from "../../../assets/logo-2.png";
 import { AiOutlineMenuFold } from "react-icons/ai";
+import { Dropdown } from "antd";
+import './nav.css'
+import {
+  aboutContent,
+  actsContent,
+  affiliatedContent,
+  contactContent,
+  eserviceContent,
+  galleryContent,
+  projectContent,
+} from "./NavItems/Dropdown";
 
 const NavBar = () => {
   const navItem = (
     <>
+      {/* <li>
+        <a >Home</a>
+      </li> */}
       <li>
-        <a>About us</a>
+        <Dropdown overlay={aboutContent} placement="bottom">
+          <a>About us </a>
+        </Dropdown>
       </li>
       <li>
-        <a>Affiliated Offices/Institutions</a>
+        <Dropdown overlay={affiliatedContent } placement="bottomLeft">
+          <a>Affiliated Offices/Institutions </a>
+        </Dropdown>
       </li>
       <li>
-        <a>project/pro'me</a>
+        <Dropdown overlay={projectContent} placement="bottom">
+          <a>Project/Program </a>
+        </Dropdown>
       </li>
       <li>
-        <a>Gallery </a>
+        <Dropdown overlay={  galleryContent } placement="bottom">
+          <a>Gallery </a>
+        </Dropdown>
       </li>
       <li>
-        <a>Acts/Policy </a>
+        <Dropdown overlay={ actsContent } placement="bottomRight">
+          <a>Acts/Policy </a>
+        </Dropdown>
       </li>
       <li>
-        <a>E-Service </a>
+        <Dropdown overlay={ eserviceContent } placement="bottomRight">
+          <a>E-Service </a>
+        </Dropdown>
       </li>
-      {/* <li><a>যোগাযোগ ও মতামত </a></li> */}
+      <li>
+        <Dropdown overlay={contactContent} placement="bottomRight">
+          <a>Contact & Comment </a>
+        </Dropdown>
+      </li>
     </>
   );
 
   return (
     <div>
       <div className="navbar bg-base-300 ">
-      <div className="navbar-start">
-          
+        <div className="navbar-start">
           {/* drawer */}
           <div className="drawer lg:hidden">
             <input id="my-drawer" type="checkbox" className="drawer-toggle" />
@@ -69,15 +98,19 @@ const NavBar = () => {
                   {/* <a href="/">
                     <img src={logo} alt="" className="h-full " />
                   </a> */}
-                  <div className=" text-lg">
-                    {navItem}
-                  </div>
+                  <div className=" text-lg">{navItem}</div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div className="hidden lg:flex">
+            <a href="/">
+            <img src={logo} alt="" className="w-[60%]" />
+            </a>
           </div>
-          {/* drawer */}
+        </div>
+        {/* drawer */}
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-[16px]">{navItem}</ul>
         </div>

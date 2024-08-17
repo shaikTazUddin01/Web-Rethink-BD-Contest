@@ -14,13 +14,15 @@ const BeforeNav = () => {
       <div className="flex gap-5 items-center">
         <h1 className="text-white">Bangladesh National Portal</h1>
         <Select
-          defaultValue="lucy"
+          defaultValue="Type Of Office"
           style={{ width: 150,}}
           size="small"
           options={[
-            { value: "jack", label: "Jack" },
-            { value: "lucy", label: "Lucy" },
-            { value: "Yiminghe", label: "yiminghe" },
+            // { value: "Type Of Office", label: "Type Of Office" },
+            { value: "Ministry/Department", label: "Ministry/Department" },
+            { value: "Depaerment Transport", label: "Depaerment Transport" },
+            { value: "District Batayan", label: "District Batayan" },
+            { value: "Upazila", label: "Upazila" },
           ]}
         />
       </div>
