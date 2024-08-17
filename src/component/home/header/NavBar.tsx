@@ -71,13 +71,13 @@ const NavBar = () => {
                 <AiOutlineMenuFold />
               </label>
             </div>
-            <div className="drawer-side">
+            <div className="drawer-side z-50">
               <label
                 htmlFor="my-drawer"
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <div className="menu bg-primaryColor text-white min-h-full w-[65%] p-4 relative">
+              <div className="menu bg-primaryColor text-white min-h-full w-[65%] p-4 relative ">
                 {/* Close Button */}
                 <button
                   onClick={() => {
