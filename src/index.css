@@ -5,4 +5,36 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
+
+.WelcomeLoading{
+    height: 70px;
+    animation-name: wlogo;
+    animation-duration: 3s; 
+}
+
+@keyframes wlogo{
+    0%{
+     height: 70px;
+    }
+    20%{
+     height: 50px;
+    }
+    40%{
+     height: 70px;
+    }
+    60%{
+     height: 50px;
+    }
+    80%{
+     height: 70px;
+    }
+    100%{
+     height: 50px;
+    }
+   
+   }
+
+
+  
