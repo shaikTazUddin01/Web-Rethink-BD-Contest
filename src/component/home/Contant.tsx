@@ -22,9 +22,12 @@ import NationalIctPolicy from "./leftside/NationalIctPolicy";
 import Miscellaneous from "./leftside/Miscellaneous";
 import ToPreventDengue from "./rightside/ToPreventDengue";
 import VisitorCount from "./rightside/VisitorCount";
+import Audio from "./rightside/Audio";
+import Floods from "./leftside/Floods";
+import OtherService from "./rightside/OtherService";
 const Contant = () => {
   return (
-    <div className=" flex flex-col md:flex-row gap-5 pb-20 px-5 lg:px-0">
+    <div className=" flex flex-col md:flex-row gap-7 pb-20 px-5 ">
       <div className="w-full md:w-[55%] lg:w-[70%] h-full py-10">
         <AboutUs></AboutUs>
         <Circular></Circular>
@@ -46,6 +49,7 @@ const Contant = () => {
           <NationalIctPolicy></NationalIctPolicy>
           <Miscellaneous></Miscellaneous>
         </div>
+          <Floods/>
       </div>
       <div className="w-full md:w-[45%] lg:w-[30%]  h-full py-10">
         <Notice></Notice>
@@ -56,6 +60,9 @@ const Contant = () => {
         <VisitorCount/>
         <EmergencyHotline></EmergencyHotline>
         <ToPreventDengue></ToPreventDengue>
+        <OtherService/>
+        <Audio/>
+
       </div>
     </div>
   );

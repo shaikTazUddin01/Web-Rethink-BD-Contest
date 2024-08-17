@@ -4,3 +4,4 @@ declare module "*.jpeg";
 declare module "*.jpg";
 declare module "*.jfif";
 declare module "*.webp";
+declare module "*.mp3";

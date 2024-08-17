@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="w-full h-[1px] bg-[#01801f58] my-5"></div>
           <div className="flex justify-center md:justify-between w-full items-center px-10 flex-col md:flex-row gap-1">
             
-              <div>
+              <div className="menu">
                 <ul className="flex gap-4 ">
                   <li>Sitemap</li>
                   <li>Secrecy Policy</li>
@@ -40,7 +40,7 @@ const Footer = () => {
                 </ul>
               </div>
             <div>
-              <p>Copyright © 2024 All Rights Reserved</p>
+              <p className="text-center">Copyright © 2024 All Rights Reserved</p>
             </div>
           </div>
         </footer>

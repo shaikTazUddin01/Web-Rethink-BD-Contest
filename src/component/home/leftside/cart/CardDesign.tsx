@@ -21,7 +21,7 @@ const CardDesign = ({image,name,items}:{image:string;name:string,items:string[]}
                     return(
                         <a
                         href=""
-                        className="hover:text-primaryColor flex items-center gap-1 mt-1 "
+                        className="hover:text-primaryColor flex items-start gap-1 mt-1 "
                       >
                         <span className="text-primaryColor text-xl">
                           <FiCheckSquare />
