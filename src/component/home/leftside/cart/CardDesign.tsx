@@ -12,7 +12,7 @@ const CardDesign = ({image,name,items}:{image:string;name:string,items:string[]}
       <div className=" grid grid-cols-1 gap-5 items-center">
         {/* 1 */}
 
-        <img src={image} alt="" className="mx-auto h-[200px]" />
+        <img src={image} alt="" className="mx-auto h-[180px] md:h-[200px]" />
         <div className=" md:px-3">
 
             {

@@ -36,7 +36,7 @@ const HeroArea = () => {
         </SwiperSlide>
       </Swiper> */}
        <div
-          className=" w-[100%] bg-no-repeat bg-cover h-[300px] "
+          className=" w-[100%] bg-no-repeat bg-cover h-[330px] "
           style={{ backgroundImage: `url(${banner2})` }}
         >
           <div className=" w-[100%] bg-[#0101018d] h-full text-white flex flex-col items-center justify-center text-center ">

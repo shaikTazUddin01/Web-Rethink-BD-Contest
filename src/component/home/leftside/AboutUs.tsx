@@ -1,6 +1,6 @@
 import aboutus from '../../../assets/aboutus2.png'
 import vision from '../../../assets/vision&mision.png'
-import officer from '../../../assets/officer.png'
+import officer from '../../../assets/satff.png'
 import work from '../../../assets/work.png'
 
 const AboutUs = () => {

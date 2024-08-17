@@ -1,8 +1,13 @@
 /* Custom CSS for dropdown menus */
+.ant-dropdown {
+    max-width: 60% !important;
+    /* margin: auto; */
+  }
+
 @media (max-width: 768px) {
     
     .ant-dropdown {
-      width: 100% !important;
+      width: 60% !important;
     }
   
    
@@ -17,10 +22,10 @@
       word-wrap: break-word !important;
     }
     
-    /* Dropdown content adjustments */
     .ant-dropdown-menu {
       max-height: 300px;
-      overflow-y: auto; /* Add scroll for long dropdowns */
+      overflow-y: auto; 
     }
   }
+  
   

@@ -20,37 +20,37 @@ const NavBar = () => {
         <a >Home</a>
       </li> */}
       <li>
-        <Dropdown overlay={aboutContent} placement="bottom">
+        <Dropdown overlay={aboutContent} >
           <a>About us </a>
         </Dropdown>
       </li>
       <li>
-        <Dropdown overlay={affiliatedContent } placement="bottomLeft">
+        <Dropdown overlay={affiliatedContent } >
           <a>Affiliated Offices/Institutions </a>
         </Dropdown>
       </li>
       <li>
-        <Dropdown overlay={projectContent} placement="bottom">
+        <Dropdown overlay={projectContent} >
           <a>Project/Program </a>
         </Dropdown>
       </li>
       <li>
-        <Dropdown overlay={  galleryContent } placement="bottom">
+        <Dropdown overlay={  galleryContent } >
           <a>Gallery </a>
         </Dropdown>
       </li>
       <li>
-        <Dropdown overlay={ actsContent } placement="bottomRight">
+        <Dropdown overlay={ actsContent } >
           <a>Acts/Policy </a>
         </Dropdown>
       </li>
       <li>
-        <Dropdown overlay={ eserviceContent } placement="bottomRight">
+        <Dropdown overlay={ eserviceContent } >
           <a>E-Service </a>
         </Dropdown>
       </li>
       <li>
-        <Dropdown overlay={contactContent} placement="bottomRight">
+        <Dropdown overlay={contactContent} >
           <a>Contact & Comment </a>
         </Dropdown>
       </li>
@@ -112,7 +112,7 @@ const NavBar = () => {
         </div>
         {/* drawer */}
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-[16px]">{navItem}</ul>
+          <ul className="menu menu-horizontal text-[16px] font-medium">{navItem}</ul>
         </div>
         <div className="navbar-end lg:hidden">
           <a className="flex  items-center gap-3 justify-end mr-2">

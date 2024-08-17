@@ -3,10 +3,17 @@ import circular from "../../../assets/circular.jpg";
 
 const Circular = () => {
 
-  const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
+  const text1 = `
+  Official announcements or updates related to ICT policies and procedures, often critical for staff awareness and compliance.
+`;
+  const text2 = `
+ Formal documents authorizing specific actions or permissions, including travel clearance for international assignments.
+`;
+  const text3 = `
+  Regular updates on ICT activities, achievements, and events, providing insights into ongoing projects and departmental developments.
+`;
+  const text4 = `
+ Invitations for bids on ICT projects or announcements of job openings, essential for expanding the division's capabilities and resources.
 `;
 
 
@@ -16,22 +23,22 @@ const items: CollapseProps['items'] = [
   {
     key: '1',
     label: 'Notification/Circular',
-    children: <p>{text}</p>,
+    children: <p>{text1}</p>,
   },
   {
     key: '2',
     label: 'Office Order/GIO/Passport No Objection letter for foreign travel',
-    children: <p>{text}</p>,
+    children: <p>{text2}</p>,
   },
   {
     key: '3',
     label: 'News bulletin',
-    children: <p>{text}</p>,
+    children: <p>{text3}</p>,
   },
   {
     key: '4',
     label: 'Tender/Recruitment Notice',
-    children: <p>{text}</p>,
+    children: <p>{text4}</p>,
   },
 ];
 
