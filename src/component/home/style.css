@@ -3,14 +3,14 @@
     color: #2C8201;
 }
 
-.sizeFixing > div {
+.sizeFixing > div>div {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
     height: 100%;
   }
   
-  .sizeFixing > div > div {
+  .sizeFixing > div>div > div {
     flex-grow: 1;
   }
   

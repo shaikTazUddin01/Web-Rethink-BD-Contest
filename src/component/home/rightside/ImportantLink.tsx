@@ -9,7 +9,7 @@ const ImportantLink = () => {
       <h1 className="text-3xl font-semibold mb-2">Important Link</h1>
       <div className="w-full h-[1px] bg-[#b0adad]"></div>
       {/* ImportAnnouncement section */}
-      <a href="" className="hover:text-primaryColor flex items-center gap-1 mt-2">
+      <a href="" className="hover:text-primaryColor flex items-start gap-1 mt-2">
         <span className='text-primaryColor text-xl'>
             <FiCheckSquare/>
         </span>
@@ -19,7 +19,7 @@ const ImportantLink = () => {
       </a>
       {/* <div className="w-full h-[1px] bg-[#b0adad] mt-2"></div> */}
        {/* ImportAnnouncement section */}
-       <a href="" className="hover:text-primaryColor flex items-center gap-1 mt-2">
+       <a href="" className="hover:text-primaryColor flex items-start gap-1 mt-2">
         <span className='text-primaryColor text-xl'>
             <FiCheckSquare/>
         </span>
@@ -27,7 +27,7 @@ const ImportantLink = () => {
         Prime Minister's Office
         </p>
       </a>
-       <a href="" className="hover:text-primaryColor flex items-center gap-1 mt-2">
+       <a href="" className="hover:text-primaryColor flex items-start gap-1 mt-2">
         <span className='text-primaryColor text-xl'>
             <FiCheckSquare/>
         </span>
@@ -35,7 +35,7 @@ const ImportantLink = () => {
         Cabinet Division
         </p>
       </a>
-       <a href="" className="hover:text-primaryColor flex items-center gap-1 mt-2">
+       <a href="" className="hover:text-primaryColor flex items-start gap-1 mt-2">
         <span className='text-primaryColor text-xl'>
             <FiCheckSquare/>
         </span>
@@ -44,7 +44,7 @@ const ImportantLink = () => {
         </p>
       </a>
       
-       <a href="" className="hover:text-primaryColor flex items-center gap-1 mt-2">
+       <a href="" className="hover:text-primaryColor flex items-start gap-1 mt-2">
         <span className='text-primaryColor text-xl'>
             <FiCheckSquare/>
         </span>
@@ -52,7 +52,7 @@ const ImportantLink = () => {
         National Skills Development Authority
         </p>
       </a>
-       <a href="" className="hover:text-primaryColor flex items-center gap-1 mt-2">
+       <a href="" className="hover:text-primaryColor flex items-start gap-1 mt-2">
         <span className='text-primaryColor text-xl'>
             <FiCheckSquare/>
         </span>
@@ -60,7 +60,7 @@ const ImportantLink = () => {
         Primary Digital Content
         </p>
       </a>
-       <a href="" className="hover:text-primaryColor flex items-center gap-1 mt-2">
+       <a href="" className="hover:text-primaryColor flex items-start gap-1 mt-2">
         <span className='text-primaryColor text-xl'>
             <FiCheckSquare/>
         </span>

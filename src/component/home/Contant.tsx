@@ -25,44 +25,101 @@ import VisitorCount from "./rightside/VisitorCount";
 import Audio from "./rightside/Audio";
 import Floods from "./leftside/Floods";
 import OtherService from "./rightside/OtherService";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Contant = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className=" flex flex-col md:flex-row gap-7 pb-20 px-5 ">
       <div className="w-full md:w-[55%] lg:w-[70%] h-full py-10">
-        <AboutUs></AboutUs>
-        <Circular></Circular>
-        <div 
-        className="grid grid-cols-1 lg:grid-cols-2 mt-10 gap-5 sizeFixing"
-        // className="flex flex-wrap justify-between mt-10 gap-5"
-        >
-          <Policies/>
-          <CitizeneServices/>
-          <CitizenCharter/>
-          <AnnualPerformance/>
-          <NationalIntegrity></NationalIntegrity>
-          <GrievanceRedressSystem></GrievanceRedressSystem>
-          <RightInfo/>
-          <Innocation></Innocation>
-          <ServiceProcess></ServiceProcess>
-          <SdgAndDevelopment></SdgAndDevelopment>
-          <BudGetProject></BudGetProject>
-          <NationalIctPolicy></NationalIctPolicy>
-          <Miscellaneous></Miscellaneous>
+        <div data-aos="zoom-in" data-aos-duration="1000">
+          <AboutUs></AboutUs>
         </div>
-          <Floods/>
+        <div data-aos="zoom-in" data-aos-duration="1000">
+          <Circular></Circular>
+        </div>
+        <div
+          className="grid grid-cols-1 lg:grid-cols-2 mt-10 gap-5 sizeFixing"
+          // className="flex flex-wrap justify-between mt-10 gap-5"
+        >
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <Policies />
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <CitizeneServices />
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <CitizenCharter />
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <AnnualPerformance />
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <NationalIntegrity></NationalIntegrity>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <GrievanceRedressSystem></GrievanceRedressSystem>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <RightInfo />
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <Innocation></Innocation>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <ServiceProcess></ServiceProcess>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <SdgAndDevelopment></SdgAndDevelopment>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <BudGetProject></BudGetProject>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <NationalIctPolicy></NationalIctPolicy>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <Miscellaneous></Miscellaneous>
+          </div>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1000">
+          <Floods />
+        </div>
       </div>
       <div className="w-full md:w-[45%] lg:w-[30%]  h-full py-10">
-        <Notice></Notice>
-        <Member></Member>
-        <ImportAnnouncement></ImportAnnouncement>
-        <EServices></EServices>
-        <ImportantLink></ImportantLink>
-        <VisitorCount/>
-        <EmergencyHotline></EmergencyHotline>
-        <ToPreventDengue></ToPreventDengue>
-        <OtherService/>
-        <Audio/>
-
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <Notice></Notice>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <Member></Member>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <ImportAnnouncement></ImportAnnouncement>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <EServices></EServices>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <ImportantLink></ImportantLink>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <VisitorCount />
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <EmergencyHotline></EmergencyHotline>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <ToPreventDengue></ToPreventDengue>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <OtherService />
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1200">
+          <Audio />
+        </div>
       </div>
     </div>
   );
