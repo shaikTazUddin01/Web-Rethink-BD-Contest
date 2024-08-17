@@ -5,7 +5,7 @@ import work from '../../../assets/work.png'
 
 const AboutUs = () => {
     return (
-      <div className='bg-white border-2 w-full rounded-xl shadow-xl p-5'>
+      <div className='bg-white border-x-4 border-primaryColor w-full rounded-xl shadow-xl p-5'>
         <div className='mb-5'>
         <h1 className='text-2xl font-semibold text-center'>About Us</h1>
         {/* <div className='w-[10%] h-[2px] bg-primaryColor mx-auto mb-[2px]'></div> */}

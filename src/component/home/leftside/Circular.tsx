@@ -43,7 +43,7 @@ const items: CollapseProps['items'] = [
 ];
 
   return (
-    <div className="bg-white border-2 w-full rounded-xl shadow-xl p-5 mt-10">
+    <div className="bg-white border-x-4 border-primaryColor  w-full rounded-xl shadow-xl p-5 mt-10">
          <div className=''>
         <h1 className='text-2xl font-semibold text-center'>Notice/Order/Circular</h1>
 
